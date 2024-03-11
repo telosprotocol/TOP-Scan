@@ -1,0 +1,31 @@
+.cardDetail {
+  background: #ffffff;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  .Item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 25%;
+    height: 148px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    border-right: 1px solid rgba(0, 0, 0, 0.1);
+    &:nth-last-of-type(1) {
+      border-right: none;
+    }
+    .label {
+      font-size: 14px;
+      font-weight: 400;
+      color: #000000;
+      line-height: 22px;
+      margin-bottom: 4px;
+    }
+    .value {
+      font-size: 30px;
+      font-weight: 400;
+      color: rgba(0, 0, 0, 0.85);
+      line-height: 38px;
+    }
+  }
+}

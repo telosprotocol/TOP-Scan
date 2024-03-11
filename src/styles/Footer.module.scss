@@ -1,0 +1,27 @@
+.footer {
+  height: 170px;
+  background: #12171c;
+  padding-top: 35px;
+  text-align: center;
+}
+.Copyright {
+  font-size: 15px;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 0.5);
+  line-height: 21px;
+}
+
+.about {
+  display: flex;
+  // flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 26px;
+  font-size: 14px;
+  font-weight: 500;
+  color: #ffffff;
+  line-height: 20px;
+  .media {
+    margin-right: 14px;
+  }
+}

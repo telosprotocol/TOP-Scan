@@ -1,0 +1,19 @@
+.breadcrumbs {
+    font-size: 14px;
+    font-weight: 400;
+    color: #ffffff;
+    line-height: 40px;
+    height: 40px;
+    background: #4d97ff;
+    a {
+      color: white;
+    }
+    &_wrap{
+      display: flex;
+      flex-direction: row;
+    }
+    &_item{
+
+    }
+
+  }

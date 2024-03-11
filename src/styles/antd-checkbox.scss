@@ -1,0 +1,52 @@
+.ant-checkbox-disabled .ant-checkbox-inner {
+  background-color: #1890ff;
+  border-color: #1890ff;
+}
+.ant-checkbox-disabled.ant-checkbox-checked .ant-checkbox-inner::after {
+  border-color: #fff;
+}
+.ant-checkbox-disabled .ant-checkbox-inner:after {
+  position: absolute;
+  display: table;
+  border: 2px solid #fff;
+  border-top: 0;
+  border-left: 0;
+  transform: rotate(45deg) scale(1) translate(-50%, -50%);
+  opacity: 1;
+  transition: all 0.2s cubic-bezier(0.12, 0.4, 0.29, 1.46) 0.1s;
+  content: " ";
+}
+.ant-checkbox-disabled + span {
+  color: rgba(0, 0, 0, 0.65);
+}
+.ant-tabs > .ant-tabs-nav,
+.ant-tabs > div > .ant-tabs-nav {
+  padding-left: 24px;
+}
+
+.ant-card-bordered {
+  // border: none;
+  border: 1px solid transparent;
+  border-radius: 8px;
+}
+
+.table {
+  .ant-table-thead {
+    background: #ffffff !important;
+  }
+  .ant-table-thead > tr > th {
+    background: #ffffff !important;
+  }
+}
+.ant-table {
+  border-radius: 8px;
+}
+.ant-table-container table > thead > tr:first-child th:last-child {
+  border-radius: 8px;
+}
+.ant-table-container table > thead > tr:first-child th:first-child {
+  border-radius: 8px;
+}
+.ant-table-tbody > tr:nth-last-of-type(1) > td {
+  border-bottom: none;
+}

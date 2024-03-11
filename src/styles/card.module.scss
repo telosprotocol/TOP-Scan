@@ -1,0 +1,40 @@
+.card {
+  .label {
+    font-size: 14px;
+    font-weight: 400;
+    color: #000000;
+    line-height: 22px;
+  }
+  .value {
+    font-size: 30px;
+    font-weight: 400;
+    color: rgba(40, 40, 46, 0.85);
+    line-height: 38px;
+  }
+  .evm {
+    width: 40px;
+    height: 18px;
+    background: #e8e8e8;
+    border-radius: 9px;
+    display: inline-block;
+    line-height: 18px;
+    text-align: center;
+    font-size: 10px;
+    font-weight: 500;
+    color: rgba(40, 40, 46, 0.65);
+  }
+  .EVMdata {
+    padding: 0 26px;
+    height: 55px;
+    display: flex;
+    align-items: center;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    img {
+      margin-right: 7px;
+    }
+    font-size: 16px;
+    font-weight: 500;
+    color: #28282e;
+  }
+}

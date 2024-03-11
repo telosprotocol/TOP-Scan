@@ -1,0 +1,130 @@
+.headFrame {
+  margin-top: 5rem;
+  background-color: #ffffff;
+  height: 10rem;
+  border-radius: 8px;
+}
+
+.headTitle {
+  margin-top: 43px;
+  margin-left: 25px;
+  color: #aaaaaa;
+}
+
+.headLine {
+  border-right: 1px solid #e1e1e1;
+  height: 10rem;
+}
+
+.headVal {
+  margin-top: 4px;
+  margin-left: 25px;
+  font-size: 30px;
+  color: rgba(0, 0, 0, 0.85);
+}
+
+.txlist {
+  padding-top: 93px;
+  padding-bottom: 100px;
+  background: linear-gradient(
+    180deg,
+    #1677ff 270px,
+    transparent 270px,
+    transparent 100%
+  );
+}
+.records {
+  margin-top: 35px;
+  margin-bottom: 20px;
+  font-size: 14px;
+  font-weight: 500;
+  color: #ffffff;
+  line-height: 22px;
+}
+
+.minerTypes {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.minerItem {
+  width: 194px;
+  height: 121px;
+  background: #ffffff;
+  border: 1px solid #ffffff;
+  // margin-right: 7px;
+  border-radius: 8px;
+  padding: 20px;
+  cursor: pointer;
+}
+.minerItemSelect {
+  border: 1px solid #1677ff;
+}
+.nimerheadFrame {
+  background-color: transparent;
+  height: 8rem;
+}
+.minerTitle {
+  font-size: 14px;
+  font-weight: 500;
+  color: #000000;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  span {
+    font-size: 14px;
+    font-weight: 500;
+    color: rgba(0, 0, 0, 0.65);
+  }
+}
+.minerVal {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  font-size: 14px;
+  font-weight: 300;
+  color: #000000;
+}
+.workingDot {
+  width: 4px;
+  height: 4px;
+  background: #1677ff;
+  display: inline-block;
+  border-radius: 50%;
+  margin-right: 5px;
+}
+
+.backupDot {
+  width: 4px;
+  height: 4px;
+  background: #b3cdf1;
+  display: inline-block;
+  border-radius: 50%;
+  margin-right: 5px;
+}
+.dotwrap {
+  display: flex;
+  align-items: center;
+  margin-bottom: 5px;
+}
+.minerCircle {
+  position: relative;
+  width: 40px;
+  height: 40px;
+  display: inline-block;
+}
+.evm {
+  padding: 0 9px;
+  height: 18px;
+  background: #e8e8e8;
+  border-radius: 9px;
+  display: inline-block;
+  line-height: 18px;
+  text-align: center;
+  font-size: 10px;
+  font-weight: 500;
+  color: rgba(40, 40, 46, 0.65);
+  // margin-left: 10px;
+}

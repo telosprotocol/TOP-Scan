@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="18px" height="12px" viewBox="0 0 18 12" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>切片</title>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="首页" transform="translate(-600.000000, -1243.000000)" fill="#E5E5E5" fill-rule="nonzero">
+            <g id="编组-9" transform="translate(359.000000, 276.000000)">
+                <g id="编组-8" transform="translate(241.000000, 967.000000)">
+                    <g transform="translate(-0.000000, 0.000000)" id="路径">
+                        <polygon transform="translate(12.177000, 5.823000) rotate(-315.000000) translate(-12.177000, -5.823000) " points="11.8015263 1.70551721 8.05951721 5.4475263 9.55504806 6.94305714 10.6814692 5.823 12.177 7.31853084 11.0569429 8.44495194 12.5524737 9.94048279 16.2944828 6.1984737"></polygon>
+                        <polygon transform="translate(5.823000, 5.823000) rotate(-315.000000) translate(-5.823000, -5.823000) " points="7.31853084 5.823 5.823 4.32746916 6.94305714 3.20104806 5.4475263 1.70551721 1.70551721 5.4475263 6.1984737 9.94048279 9.94048279 6.1984737 8.44495194 4.70294286"></polygon>
+                        <polygon transform="translate(8.997750, 5.823900) rotate(-315.000000) translate(-8.997750, -5.823900) " points="7.42489703 6.49625248 9.67073888 4.25104703 10.570603 5.15091112 8.32476112 7.39675297"></polygon>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

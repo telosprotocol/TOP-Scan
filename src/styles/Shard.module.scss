@@ -1,0 +1,55 @@
+
+.headFrame{
+  margin-top:5rem;
+  background-color:#FFFFFF;
+  border-radius:8px;
+}
+
+.headTitle{
+  margin-top:43px;
+  margin-left:25px;
+  color:#AAAAAA;
+}
+
+.headLine{
+  border-right:1px solid #E1E1E1;
+  height:10rem;
+}
+
+.bb {
+  border-bottom:1px solid #E1E1E1;
+}
+
+.headVal{
+  margin-top:4px;
+  margin-left:25px;
+  font-size:30px;
+  color: rgba(0, 0, 0, 0.85);
+}
+
+.txlist {
+  padding-top: 93px;
+  padding-bottom: 100px;
+  background: linear-gradient(180deg, #1677ff 270px, transparent 270px, transparent 100%);
+}
+.records {
+  margin-top: 35px;
+  margin-bottom: 20px;
+  font-size: 14px;
+  font-weight: 500;
+  color: #ffffff;
+  line-height: 22px;
+}
+.evm {
+  padding: 0 9px;
+  height: 18px;
+  background: #e8e8e8;
+  border-radius: 9px;
+  display: inline-block;
+  line-height: 18px;
+  text-align: center;
+  font-size: 10px;
+  font-weight: 500;
+  color: rgba(40, 40, 46, 0.65);
+  margin-left: 10px;
+}

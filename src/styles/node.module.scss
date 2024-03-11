@@ -1,0 +1,57 @@
+.node {
+  &__desc {
+    font-size: 14px;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.45);
+    line-height: 18px;
+    padding: 21px 60px 21px 24px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  }
+  .tabs {
+    background: #ffffff;
+    padding-top: 30px;
+  }
+  .linechart,
+  .barChart {
+    padding: 54px 100px 80px;
+    .first {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      margin-bottom: 33px;
+      .fl {
+        &_text1 {
+          font-size: 16px;
+          font-weight: 500;
+          color: rgba(0, 0, 0, 0.85);
+          line-height: 16px;
+          margin-right: 43px;
+        }
+        &_text2 {
+          font-size: 16px;
+          font-weight: 400;
+          color: rgba(0, 0, 0, 0.85);
+          line-height: 16px;
+        }
+      }
+      .fr {
+      }
+    }
+    .second {
+      margin-top: 21px;
+      &__title {
+        font-size: 16px;
+        font-weight: 400;
+        color: rgba(0, 0, 0, 0.85);
+        line-height: 16px;
+        margin-bottom: 14px;
+      }
+      &__desc {
+        font-size: 14px;
+        font-weight: 400;
+        color: rgba(0, 0, 0, 0.5);
+        line-height: 18px;
+      }
+    }
+  }
+}

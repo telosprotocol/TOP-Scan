@@ -1,0 +1,49 @@
+.home{
+  // padding-top: 227px;
+  padding-bottom: 132px;
+  .video{
+    position: relative;
+    height: 270px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    video{
+      height: 270px;
+    }
+    .mask{
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background: linear-gradient(240deg, #2F77FF 0%, #3790FF 100%);
+      opacity: 0.9;
+    }
+
+  }
+  .search{
+    margin-top: -185px;
+  }
+  .part1{
+    margin-top:81px;
+  }
+  .part2{
+    margin-top: 30px;
+    .part2_lineChart{
+      h2{
+        margin: 24px 0 33px;
+        font-size: 14px;
+        font-weight: 400;
+        color: #000000;
+        line-height: 22px;
+      }
+    }
+  }
+  .part3{
+    margin-top: 30px;
+  }
+  .part4{
+    margin-top: 30px;
+  }
+}

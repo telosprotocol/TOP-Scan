@@ -1,0 +1,34 @@
+.txDetails {
+  position: relative;
+  padding-top: 93px;
+  padding-bottom: 100px;
+  background: linear-gradient(
+    180deg,
+    #1677ff 270px,
+    transparent 270px,
+    transparent 100%
+  );
+  .top {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: #4d97ff;
+  }
+}
+.txContent {
+  min-height: 650px;
+  padding-top: 77px;
+}
+.loading {
+  text-align: center;
+  padding-top: 100px;
+}
+.success {
+  color: #6dd400;
+}
+.blockHeight {
+  background: #F5F5F5;
+  padding: 3px 10px;
+  display: inline-block;
+}
